@@ -118,11 +118,11 @@ const json = `{
         "block": "warning",
         "content": [
             // правильно
-            { "block": "placeholder", "mods": { size: "m" },
+            { "block": "placeholder", "mods": { "size": "m" },
             { "block": "button", "mods": { "size": "m" } }
             // неправильно
             { "block": "button", "mods": { "size": "m" } },
-            { "block": "placeholder", "mods": { size: "m" }
+            { "block": "placeholder", "mods": { "size": "m" }
         ]
     }
     ```
@@ -138,9 +138,9 @@ const json = `{
         "block": "warning",
         "content": [
             // правильно
-            { "block": "placeholder", "mods": { size: "m" }
+            { "block": "placeholder", "mods": { "size": "m" }
             // неправильно
-            { "block": "placeholder", "mods": { size: "xl" }
+            { "block": "placeholder", "mods": { "size": "xl" }
         ]
     }
     ```
